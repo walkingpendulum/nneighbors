@@ -1,4 +1,4 @@
-# nneighborhood
+# nneighbors
 
 Find'n'add nearest neighbors!
 
