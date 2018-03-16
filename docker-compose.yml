@@ -1,0 +1,10 @@
+service:
+  build: .
+  command: python service.py
+  ports:
+    - "8888:8888"
+  links:
+    - mongo-db
+
+mongo-db:
+  image: mongo:3.0.2
